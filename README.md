@@ -85,7 +85,7 @@ sudo dpkg -i cudnn-local-repo-ubuntu2204-8.9.7.29_1.0-1_amd64.deb
 Refresh your package manager to include the cuDNN repository:
 
 ```bash
-sudo apt-get update
+sudo apt update
 ```
 
 ### Step 4: Install cuDNN Libraries
