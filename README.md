@@ -1,5 +1,3 @@
-Here’s an improved version of your guide with streamlined language, clarified steps, and corrections to ensure readability and functionality:
-
 ---
 
 # TensorFlow-GPU Installation Guide
@@ -167,5 +165,3 @@ This script outputs:
 - Build information for CUDA and cuDNN support.
 
 ---
-
-This guide ensures a reliable setup of TensorFlow for GPU-based deep learning on Ubuntu systems. For further updates and troubleshooting, refer to the official TensorFlow and NVIDIA documentation.
