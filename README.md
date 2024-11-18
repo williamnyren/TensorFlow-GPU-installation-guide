@@ -1,6 +1,6 @@
 # TensorFlow-GPU Installation Guide
 
-This guide provides a clear, step-by-step process to set up TensorFlow for NVIDIA GPU acceleration on Ubuntu-based systems. By following this guide, you will configure TensorFlow with CUDA and cuDNN libraries, enabling efficient deep learning workflows.
+This guide provides a step-by-step process to set up TensorFlow with NVIDIA GPU acceleration on Ubuntu-based systems. It assumes that CUDA 11.x and compatible NVIDIA drivers are already installed on your system. By following this guide, you’ll configure TensorFlow with CUDA and cuDNN libraries, enabling efficient deep learning workflows.
 
 ---
 
