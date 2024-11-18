@@ -93,13 +93,13 @@ sudo apt update
 1. Install the **Runtime Library** (required for running applications):
 
    ```bash
-   sudo apt-get install libcudnn8=8.9.7.29-1+cuda11.8
+   sudo apt install libcudnn8=8.9.7.29-1+cuda11.8
    ```
 
 2. Install the **Developer Library** (required for building applications):
 
    ```bash
-   sudo apt-get install libcudnn8-dev=8.9.7.29-1+cuda11.8
+   sudo apt install libcudnn8-dev=8.9.7.29-1+cuda11.8
    ```
 
 ---
