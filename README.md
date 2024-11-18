@@ -130,10 +130,10 @@ conda activate tensorflow_gpu
 
 ## TensorFlow Installation
 
-Install a version of TensorFlow compatible with your CUDA and cuDNN setup. For CUDA 11.x and cuDNN 8.9.x, install TensorFlow **2.15.1**:
+Install a version of TensorFlow compatible with your CUDA and cuDNN setup. For CUDA 11.x and cuDNN 8.9.x, install TensorFlow **2.14.1**:
 
 ```bash
-pip install tensorflow==2.15.1
+pip install tensorflow==2.14.1
 ```
 
 > **Note:** TensorFlow recommends using `pip` for installation instead of `conda`. For more details, refer to the [official TensorFlow installation guide](https://www.tensorflow.org/install).
