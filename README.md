@@ -142,7 +142,7 @@ pip install tensorflow==2.14.1
 
 ## Verifying Installation
 
-To confirm that TensorFlow is configured to use your GPU, create a new Python file and run the following script:
+To confirm that TensorFlow is configured to use your GPU, create a new Python file and run the following script. Alternatively, you can download the Hello_GPU.py file from this page/project.
 
 ```python
 import tensorflow as tf
