@@ -31,12 +31,16 @@ Build cuda_11.8.r11.8/compiler.
 To check your NVIDIA driver version and the CUDA version it supports, run:
 
 ```bash
-nvidia-smi
+nvidia-smi | grep "CUDA Version" | awk '{print "CUDA Version: " $9}' && nvidia-smi --query-gpu=name,driver_version,memory.total --format=csv
 ```
 
 Sample output:
 ```
-NVIDIA-SMI 470.256.02   Driver Version: 470.256.02   CUDA Version: 11.4
+CUDA Version: 11.4
+name, driver_version, memory.total [MiB]
+NVIDIA GeForce GTX 1650, 470.256.02, 3889 MiB
+NVIDIA TITAN V, 470.256.02, 12066 MiB
+
 ```
 
 ---
